@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman 2</title>
+
+    <style>
+      .content {
+        display: grid;
+        grid-template-columns: repeat(3, 200px);
+        border: 1px solid black;
+        gap: 20px;
+      }
+
+      .content div {
+        /*width: 100px;*/
+        height: 100px;
+        color: white;
+      }
+
+      #blue {
+        background-color: blue;
+      }
+
+      #red {
+        background-color: red;
+      }
+
+      #green {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="ndex.html">telwindcss</a>
+    <p>Halaman 2</p>
+
+    <div class="content">
+      <div id="blue">box1</div>
+      <div id="red">box2</div>
+      <div id="green">box3</div>
+      <div id="blue">box1</div>
+      <div id="red">box2</div>
+      <div id="green">box3</div>
+    </div>
+  </body>
+</html>
